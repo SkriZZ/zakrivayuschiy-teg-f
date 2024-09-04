@@ -15,6 +15,6 @@
     linear-gradient(#e7e7e7 0.01%, #1a1a1a);
   --container-inline-size: clamp(324px, 100%, 700px);
   --header-background: white;
-
   --like-color: white;
+  --like-red: red;
 }
