@@ -18,3 +18,9 @@
     opacity: 0.6;
   }
 }
+
+@keyframes move {
+  to {
+    left: -10px;
+  }
+}
