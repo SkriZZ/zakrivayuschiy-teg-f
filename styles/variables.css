@@ -13,7 +13,7 @@
     ),
     repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
     linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-  --container-inline-size: clamp(324px, 100%, 700px);
+  --container-inline-size: clamp(324px, 99%, 700px);
   --header-background: white;
   --like-color: white;
   --like-islike: red;
