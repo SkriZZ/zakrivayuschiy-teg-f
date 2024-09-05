@@ -12,10 +12,10 @@
   --accent-color: #000000;
   --background-image: repeating-linear-gradient(
       to right,
-      #d3d3d3,
-      transparent 2px
+      #d3d3d3 0px 2px,
+      transparent 2px 4px
     ),
-    repeating-linear-gradient(#d3d3d3, transparent 2px),
+    repeating-linear-gradient(#d3d3d3 0px 2px, transparent 2px 4px),
     linear-gradient(#e7e7e7 0.01%, #1a1a1a);
   --header-background: white;
   --like-color: white;
@@ -26,29 +26,15 @@
   --aсcent-weight: 785;
   --background-color: black;
   --accent-color: #00cc14;
-  --background-image: repeating-linear-gradient(to right, #000, transparent 2px),
-    repeating-linear-gradient(#000, transparent 2px),
+  --background-image: repeating-linear-gradient(
+      to right,
+      #000 0px 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(#000 0px 2px, transparent 2px 4px),
     linear-gradient(#007f0c 50%, #004306);
   --header-background: black;
   --like-color: #00cc14;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --main-weight: 400;
-    --aсcent-weight: 700;
-    --background-color: white;
-    --accent-color: #000000;
-    --background-image: repeating-linear-gradient(
-        to right,
-        #d3d3d3,
-        transparent 2px
-      ),
-      repeating-linear-gradient(#d3d3d3, transparent 2px),
-      linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-    --header-background: white;
-    --like-color: white;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -59,10 +45,10 @@
     --accent-color: #00cc14;
     --background-image: repeating-linear-gradient(
         to right,
-        #000,
-        transparent 2px
+        #000 0px 2px,
+        transparent 2px 4px
       ),
-      repeating-linear-gradient(#000, transparent 2px),
+      repeating-linear-gradient(#000 0px 2px, transparent 2px 4px),
       linear-gradient(#007f0c 50%, #004306);
     --header-background: black;
     --like-color: #00cc14;
