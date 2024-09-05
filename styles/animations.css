@@ -21,7 +21,6 @@
   animation: sparks-animation 0.3s ease-in 0.3s 1 alternate;
 }
 
-
 @keyframes opacity {
   to {
     opacity: 0.6;
@@ -33,7 +32,6 @@
     left: -10px;
   }
 }
-
 
 @keyframes scale-animation {
   from {
