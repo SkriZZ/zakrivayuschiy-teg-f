@@ -26,6 +26,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-attachment:fixed;
 }
 
 .header {
@@ -259,7 +260,7 @@
   line-height: 12.6px;
   text-align: center;
   animation: 0.5s linear;
-  transition: box-shadow 0.3s linear;
+  transition: box-shadow 0.3s ease;
 }
 
 .button:focus {
@@ -314,11 +315,7 @@
 @media (width <= 375px) {
   .save-button {
     margin-bottom: 100px;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
     inline-size: 306px;
     min-block-size: 80px;
   }
